@@ -37,8 +37,12 @@ h1 {
 
 section {
 	margin-bottom: 3em ;
-	border: 3px solid #000000;
+	border: 1px solid #000000;
 	background-color: #999966;
+	height: 400px;	
+
+
+position: relative;
 
 	
 }
@@ -47,11 +51,16 @@ section {
 h2 {
 	margin-bottom: : 0.6em ;
 	font-size: 18pt;
-	float:right;
+	/*float:right;*/
+
+	position: absolute;
+	top: -1px;
+	right:-1px;
 		
-	padding: 20px 0 ;
-	border: 3px solid #000000;
+	padding: 15px;
+	border: 1px solid #000000;
 	width: 220px;
+	height: 70px;
 	text-align: center;
 }
 
@@ -70,8 +79,11 @@ h2 {
 p {
 	text-align: justify;
 	font-size: 13pt;
-	clear:right;
+	/*clear:right;*/
 	padding: 20px;
+
+	position: relative;
+	top: 80px;
 
 	
 
